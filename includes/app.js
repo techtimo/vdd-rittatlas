@@ -1393,12 +1393,13 @@ async function loadVddData() {
   const KEY = 'vdd_d', TS = 'vdd_t';
   const MAX_AGE = 60 * 60 * 1000;
   const now = Date.now();
+  const forceRefresh = !!window.location.hash;
   let cached = null;
   try {
     cached = localStorage.getItem(KEY);
     const ts = parseInt(localStorage.getItem(TS) || '0', 10);
     const offline = !navigator.onLine;
-    if (cached && (offline || (now - ts) < MAX_AGE)) {
+    if (cached && (offline || (!forceRefresh && (now - ts) < MAX_AGE))) {
       return JSON.parse(cached);
     }
   } catch(e) {
@@ -1465,16 +1466,35 @@ async function loadVddData() {
     cell.appendChild(document.createTextNode(` (${fmtDateDe(lastChanged.wiki_touched)})`));
   }
 
+  const APP_SHA_KEY = 'vdd_app_sha';
+  let pendingNewSha = null;
+
   // ── GitHub status info (last checked / app version), throttled to once per hour ──
   function renderGhInfo(info) {
     if (info.runUpdatedAt) document.getElementById('info-geprueft').textContent = timeAgo(info.runUpdatedAt);
     if (info.commitSha) {
       document.getElementById('info-version').textContent = `${info.commitSha} (${timeAgo(info.commitDate)})`;
-      const knownSha = localStorage.getItem('vdd_app_sha');
-      if (knownSha && knownSha !== info.commitSha) document.getElementById('update-banner').classList.add('show');
-      localStorage.setItem('vdd_app_sha', info.commitSha);
+      const knownSha = localStorage.getItem(APP_SHA_KEY);
+      if (knownSha && knownSha !== info.commitSha) {
+        // Reload only while hidden, so an open tab never flashes/loses state while in use.
+        if (document.visibilityState === 'hidden') {
+          localStorage.setItem(APP_SHA_KEY, info.commitSha);
+          location.reload();
+          return;
+        }
+        pendingNewSha = info.commitSha;
+        return;
+      }
+      localStorage.setItem(APP_SHA_KEY, info.commitSha);
     }
   }
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden' && pendingNewSha) {
+      localStorage.setItem(APP_SHA_KEY, pendingNewSha);
+      location.reload();
+    }
+  });
 
   const GH_TTL = 60 * 60 * 1000;
   let ghInfo = null;
@@ -1485,26 +1505,25 @@ async function loadVddData() {
   } else {
     Promise.all([
       fetch('https://api.github.com/repos/techtimo/vdd-rittatlas/actions/workflows/update.yml/runs?per_page=1').then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch('https://api.github.com/repos/techtimo/vdd-rittatlas/commits?per_page=1').then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch('https://api.github.com/repos/techtimo/vdd-rittatlas/commits?per_page=30').then(r => r.ok ? r.json() : null).catch(() => null),
     ]).then(([runsData, commitsData]) => {
       const run = runsData?.workflow_runs?.[0];
-      const commit = commitsData?.[0];
-      if (!run && !commit) {
+      // Hourly data-only commits are authored by the scraper bot; skip those to find the latest actual code change.
+      const codeCommit = commitsData?.find(c => c.commit?.author?.name !== 'github-actions[bot]');
+      if (!run && !codeCommit) {
         if (ghInfo) renderGhInfo(ghInfo);
         return;
       }
       const info = {
         checkedAt: Date.now(),
         runUpdatedAt: run?.updated_at || ghInfo?.runUpdatedAt || null,
-        commitSha: commit?.sha ? commit.sha.slice(0, 7) : ghInfo?.commitSha || null,
-        commitDate: commit?.commit?.committer?.date || ghInfo?.commitDate || null,
+        commitSha: codeCommit?.sha ? codeCommit.sha.slice(0, 7) : ghInfo?.commitSha || null,
+        commitDate: codeCommit?.commit?.committer?.date || ghInfo?.commitDate || null,
       };
       try { localStorage.setItem('vdd_gh_info', JSON.stringify(info)); } catch(_) {}
       renderGhInfo(info);
     });
   }
-
-  document.getElementById('update-reload').addEventListener('click', () => location.reload());
 
   // populate region dropdown
   const regionSel = document.getElementById('region-select');
@@ -1531,10 +1550,10 @@ async function loadVddData() {
 
   await new Promise(resolve => {
     if (map.isStyleLoaded()) { resolve(); return; }
-    const check = () => {
-      if (map.isStyleLoaded()) { map.off('styledata', check); resolve(); }
-    };
-    map.on('styledata', check);
+    const done = () => { map.off('style.load', done); map.off('styledata', done); resolve(); };
+    map.on('style.load', done);
+    const checkData = () => { if (map.isStyleLoaded()) { map.off('styledata', checkData); map.off('style.load', done); resolve(); } };
+    map.on('styledata', checkData);
   });
   _currentGeoJSON = eventsToGeoJSON(EVENTS);
   await _addEventLayersToMap(_currentGeoJSON).catch(err => console.error('addEventLayers failed:', err));
