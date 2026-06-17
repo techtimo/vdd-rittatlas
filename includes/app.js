@@ -1548,15 +1548,14 @@ async function loadVddData() {
     typeRow.appendChild(btn);
   });
 
-  await new Promise(resolve => {
-    if (map.isStyleLoaded()) { resolve(); return; }
-    const done = () => { map.off('style.load', done); map.off('styledata', done); resolve(); };
-    map.on('style.load', done);
-    const checkData = () => { if (map.isStyleLoaded()) { map.off('styledata', checkData); map.off('style.load', done); resolve(); } };
-    map.on('styledata', checkData);
-  });
+  // Render the table immediately; don't gate it on the basemap tiles, which
+  // can be slow to fetch on a first-ever visit. Markers are added via the
+  // 'style.load' listener once the map style is ready, or immediately below
+  // if it already is.
   _currentGeoJSON = eventsToGeoJSON(EVENTS);
-  await _addEventLayersToMap(_currentGeoJSON).catch(err => console.error('addEventLayers failed:', err));
+  if (map.isStyleLoaded()) {
+    _addEventLayersToMap(_currentGeoJSON).catch(err => console.error('addEventLayers failed:', err));
+  }
 
   await new Promise(r => setTimeout(r, 0));
   initTable(EVENTS);
