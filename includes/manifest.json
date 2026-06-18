@@ -1,12 +1,13 @@
 {
+  "$schema": "https://json.schemastore.org/web-manifest.json",
   "name": "VDD Rittatlas",
-  "short_name": "Rittatlas",
   "start_url": "../",
   "scope": "../",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1565c0",
   "icons": [
-    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+    { "src": "favicon.svg", "sizes": "32x32", "type": "image/svg+xml" },
+    { "src": "icon-512.svg", "sizes": "192x192 512x512", "type": "image/svg+xml" }
   ]
 }
