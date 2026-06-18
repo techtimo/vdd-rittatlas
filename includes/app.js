@@ -446,7 +446,12 @@ async function _addEventLayersToMap(geojson) {
 
   map.on('click', 'events-unclustered', e => {
     const ev = EVENTS.find(ev => ev.id === e.features[0].properties.id);
-    if (ev) focusEvent(ev);
+    if (!ev) return;
+    if (ev.id === activeId && openPopup) {
+      openPopup.remove();
+      return;
+    }
+    focusEvent(ev);
   });
 
   map.on('mouseenter', 'events-unclustered', e => {
