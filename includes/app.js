@@ -287,7 +287,7 @@ const map = new maplibregl.Map({
 });
 map.touchZoomRotate.disableRotation();
 map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
-map.on('click', e => { if (!map.queryRenderedFeatures(e.point, { layers: ['events-unclustered'] }).length && openPopup) openPopup.remove(); });
+map.on('click', e => { if (map.getLayer('events-unclustered') && !map.queryRenderedFeatures(e.point, { layers: ['events-unclustered'] }).length && openPopup) openPopup.remove(); });
 let _moveRAF = null;
 map.on('move', () => {
   if (_programmaticMapMove || _moveRAF) return;
@@ -373,6 +373,7 @@ function removeRadiusCircle() {
 
 let openPopup = null;
 let _currentGeoJSON = null;
+let _styleReady = false;
 
 function eventsToGeoJSON(events) {
   const groups = {};
@@ -462,7 +463,10 @@ async function _addEventLayersToMap(geojson) {
   map.on('mouseleave', 'events-unclustered', () => { map.getCanvas().style.cursor = ''; });
 }
 
-map.on('style.load', () => { if (_currentGeoJSON) _addEventLayersToMap(_currentGeoJSON).catch(() => {}); });
+map.on('style.load', () => {
+  _styleReady = true;
+  if (_currentGeoJSON) _addEventLayersToMap(_currentGeoJSON).catch(() => {});
+});
 
 function showEventPopup(ev) {
   const prev = openPopup;
@@ -1556,9 +1560,11 @@ async function loadVddData() {
   // Render the table immediately; don't gate it on the basemap tiles, which
   // can be slow to fetch on a first-ever visit. Markers are added via the
   // 'style.load' listener once the map style is ready, or immediately below
-  // if it already is.
+  // if it already fired before the event data arrived (isStyleLoaded() is
+  // unreliable here: it reflects whether tiles are *currently* loaded, which
+  // can be false even after 'style.load' already fired once).
   _currentGeoJSON = eventsToGeoJSON(EVENTS);
-  if (map.isStyleLoaded()) {
+  if (_styleReady) {
     _addEventLayersToMap(_currentGeoJSON).catch(err => console.error('addEventLayers failed:', err));
   }
 
