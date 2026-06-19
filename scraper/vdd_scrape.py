@@ -275,11 +275,7 @@ def main():
     events.sort(key=lambda ev: (ev.get("start_date") or "", ev["id"]))
 
     old = _read_existing_data()
-    old_coords = {
-        ev["id"]: (ev["lat"], ev["lon"])
-        for ev in (old["events"] if old else [])
-        if ev.get("lat") is not None
-    }
+    old_by_id = {ev["id"]: ev for ev in (old["events"] if old else [])}
 
     all_titles = [ev["wiki_title"] for ev in events if ev.get("wiki_title")]
     print(f"\nFetching last-modified timestamps for {len(all_titles)} pages...")
@@ -292,6 +288,17 @@ def main():
         print(f"\nGeocoding {len(to_geocode)} events missing wiki Koordinaten via Nominatim...")
         for ev in to_geocode:
             name = ev.get("name") or ev.get("wiki_title")
+            old_ev = old_by_id.get(ev["id"])
+            address_unchanged = (
+                old_ev is not None
+                and old_ev.get("lat") is not None
+                and old_ev.get("venue") == ev.get("venue")
+                and old_ev.get("organizer") == ev.get("organizer")
+            )
+            if address_unchanged:
+                ev["lat"], ev["lon"] = old_ev["lat"], old_ev["lon"]
+                print(f"  [{name}] address unchanged -- reusing cached coordinates")
+                continue
             if not ev.get("venue") and not ev.get("organizer"):
                 print(f"  [{name}] no address -- skipping")
                 continue
@@ -300,8 +307,8 @@ def main():
             if lat:
                 ev["lat"], ev["lon"] = lat, lon
                 print(f"    -> {lat:.5f}, {lon:.5f}")
-            elif ev["id"] in old_coords:
-                ev["lat"], ev["lon"] = old_coords[ev["id"]]
+            elif old_ev and old_ev.get("lat") is not None:
+                ev["lat"], ev["lon"] = old_ev["lat"], old_ev["lon"]
                 print(f"    -> no result, keeping previous coordinates")
             else:
                 print(f"    -> no result")
