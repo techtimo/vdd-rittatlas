@@ -270,6 +270,17 @@ def main():
             if needs:
                 to_geocode.append(ev)
 
+    # Stable order independent of SMW's tie-breaking for equal Startdatum values,
+    # so re-runs with no real changes don't produce reorder-only diffs.
+    events.sort(key=lambda ev: (ev.get("start_date") or "", ev["id"]))
+
+    old = _read_existing_data()
+    old_coords = {
+        ev["id"]: (ev["lat"], ev["lon"])
+        for ev in (old["events"] if old else [])
+        if ev.get("lat") is not None
+    }
+
     all_titles = [ev["wiki_title"] for ev in events if ev.get("wiki_title")]
     print(f"\nFetching last-modified timestamps for {len(all_titles)} pages...")
     touched_map = fetch_page_touched(all_titles)
@@ -289,10 +300,12 @@ def main():
             if lat:
                 ev["lat"], ev["lon"] = lat, lon
                 print(f"    -> {lat:.5f}, {lon:.5f}")
+            elif ev["id"] in old_coords:
+                ev["lat"], ev["lon"] = old_coords[ev["id"]]
+                print(f"    -> no result, keeping previous coordinates")
             else:
                 print(f"    -> no result")
 
-    old = _read_existing_data()
     if old and json.dumps(old["events"], ensure_ascii=False, sort_keys=True) == \
                json.dumps(events,        ensure_ascii=False, sort_keys=True):
         scraped_at = old["scraped_at"]
