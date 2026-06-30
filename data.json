@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-22 12:39:03",
+  "scraped_at": "2026-06-30 14:09:42",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -1212,7 +1212,7 @@
       "cei": null,
       "announcement_pdf": "2026-04-Darssdistanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Darß2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -1220,7 +1220,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-03-03T11:27:18Z"
+      "wiki_touched": "2026-06-30T09:39:18Z"
     },
     {
       "id": "Arendsee Outback Run 2026",
@@ -4429,7 +4429,7 @@
       "ldr": "81,102,120,160",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "Ausschreibung Stuhr Juli 2026.pdf",
+      "announcement_pdf": "Ausschreibung Stuhr Juli 2026 (1).pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -4439,7 +4439,7 @@
       "bemerkung": null,
       "ritt_bild": "stuhrer-distanz.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-12T10:23:15Z"
+      "wiki_touched": "2026-06-30T09:36:42Z"
     },
     {
       "id": "Schönauer Waldritt 2026",
@@ -4676,8 +4676,8 @@
       "region": "Sachsen",
       "country": "Deutschland",
       "venue": "Mühlstraße 7a, 09661 Pappendorf",
-      "lat": 50.9890416667,
-      "lon": 13.1820472222,
+      "lat": 50.9904555556,
+      "lon": 13.1817444444,
       "organizer": "Verein Deutscher Distanzreiter und-fahrer e.V.\n\nSchwanner Str. 25 \n\n75334 Straubenhardt\n\noffice@vdd-aktuell.de",
       "contact": "Franziska Finkel\n\nErlbachtal 7\n\n09306 Erlau\n\nDeutschland",
       "patron": null,
@@ -4688,7 +4688,7 @@
       "ldr": "84,100,120,160",
       "mtr": null,
       "cei": "CEI*, CEI**, CEI***, CEIYJ*, CEIYJ**",
-      "announcement_pdf": "Ausschreibung Striegistal DM DJM2026neu.pdf",
+      "announcement_pdf": "Ausschreibung Striegistal DM DJM2026.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -4698,7 +4698,7 @@
       "bemerkung": "Deutsche Meisterschaften für Junioren  und Senioren",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-04T09:04:22Z"
+      "wiki_touched": "2026-06-30T09:38:21Z"
     },
     {
       "id": "Eifel-Blick Distanz 2026",
