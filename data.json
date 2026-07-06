@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-30 14:09:42",
+  "scraped_at": "2026-07-06 19:43:11",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -8166,7 +8166,7 @@
       "ldr": "81",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "Eisborn2026.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD Nennung.pdf",
@@ -8176,7 +8176,7 @@
       "bemerkung": null,
       "ritt_bild": "2016-09-eisborner-herbstdistanz-2.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2025-12-07T21:45:40Z"
+      "wiki_touched": "2026-07-06T15:12:21Z"
     },
     {
       "id": "12. Eichwalddistanz 2026",
