@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-06 19:43:11",
+  "scraped_at": "2026-07-07 23:24:27",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -5021,17 +5021,17 @@
       "ldr": null,
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "Birstein 2026.pdf",
+      "announcement_pdf": null,
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
-      "status": "steht fest",
+      "status": "wurde abgesagt",
       "first_edition_year": 1995,
       "website": "http://www.distanzreiter-birstein.de",
       "bemerkung": null,
       "ritt_bild": "2017-07-birstein-distanz-06.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-04-30T10:38:43Z"
+      "wiki_touched": "2026-07-07T19:15:12Z"
     },
     {
       "id": "Hohe Mark Distanz 2026",
@@ -5391,7 +5391,7 @@
       "ldr": "83,98,115",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "2026-AusschreibungHolzerode-1.pdf",
+      "announcement_pdf": "2026 Holzerode2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -5401,7 +5401,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-04T09:21:11Z"
+      "wiki_touched": "2026-07-07T20:18:01Z"
     },
     {
       "id": "Durchs Land der Franken 2026",
@@ -6908,7 +6908,7 @@
       "ldr": null,
       "mtr": null,
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026 Nordlichtritt.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -6918,7 +6918,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2025-11-04T21:32:57Z"
+      "wiki_touched": "2026-07-07T19:20:32Z"
     },
     {
       "id": "Krommerter Distanz 2026",
