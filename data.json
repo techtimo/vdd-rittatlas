@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-07 23:24:27",
+  "scraped_at": "2026-07-08 13:04:15",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -6791,13 +6791,13 @@
       "contact": "Dominik Betz, Rader Straße 23, 58553 Halver",
       "patron": null,
       "event_types": "Distanzritt, Kinderritt",
-      "efr": "x",
-      "kdr": "x",
-      "mdr": "x",
-      "ldr": "x",
-      "mtr": "x",
+      "efr": "26",
+      "kdr": "49",
+      "mdr": "67",
+      "ldr": "90",
+      "mtr": "139,116",
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026 FestimSattel Distanz.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD_Nennung.pdf",
@@ -6807,7 +6807,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-01-22T07:41:18Z"
+      "wiki_touched": "2026-07-08T09:23:26Z"
     },
     {
       "id": "Sauerlänger Querfeldein Fahrt 2026",
