@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-08 13:04:15",
+  "scraped_at": "2026-07-14 23:57:45",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -5280,7 +5280,7 @@
       "ldr": "84",
       "mtr": "118,92",
       "cei": null,
-      "announcement_pdf": "2026-Hohenmorgen.pdf",
+      "announcement_pdf": "2026 Hohenmorgen2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -5290,7 +5290,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-04T21:21:53Z"
+      "wiki_touched": "2026-07-14T20:18:30Z"
     },
     {
       "id": "1. Barbarossa Distanz 2026",
@@ -5428,17 +5428,17 @@
       "ldr": "85",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "2026-Marloffstein.pdf",
+      "announcement_pdf": null,
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
-      "status": "steht fest",
+      "status": "wurde abgesagt",
       "first_edition_year": null,
       "website": null,
       "bemerkung": null,
       "ritt_bild": "2017-07-durchs-land-der-franken-02.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-15T20:22:32Z"
+      "wiki_touched": "2026-07-14T20:58:04Z"
     },
     {
       "id": "Ritt zum Schlösschen Wasem 2026",
@@ -6501,7 +6501,7 @@
       "ldr": null,
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "2026-08-EquusArabian.pdf",
+      "announcement_pdf": "2026-EquusArabianCup2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -6511,7 +6511,7 @@
       "bemerkung": "Ritt aufgrund von Influenza in der Region verschoben.",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-22T08:07:11Z"
+      "wiki_touched": "2026-07-14T20:19:05Z"
     },
     {
       "id": "16. Nordsee-Distanz 2026",
@@ -6797,7 +6797,7 @@
       "ldr": "90",
       "mtr": "139,116",
       "cei": null,
-      "announcement_pdf": "2026 FestimSattel Distanz.pdf",
+      "announcement_pdf": "2026 FestimSattel2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD_Nennung.pdf",
@@ -6807,7 +6807,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-07-08T09:23:26Z"
+      "wiki_touched": "2026-07-14T20:17:54Z"
     },
     {
       "id": "Sauerlänger Querfeldein Fahrt 2026",
