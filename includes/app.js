@@ -1313,6 +1313,25 @@ document.getElementById('radius-slider').addEventListener('input', e => {
   }
 });
 
+// ── map fullscreen / filter toggle ────────────────────────────────────────────
+(function () {
+  const fsBtn  = document.getElementById('btn-map-fullscreen');
+  const fltBtn = document.getElementById('btn-map-filters');
+
+  function setMapFullscreen(on) {
+    document.body.classList.toggle('map-fullscreen', on);
+    fsBtn.hidden = on;
+    fltBtn.hidden = !on;
+    map.resize();
+  }
+
+  fsBtn.addEventListener('click', () => setMapFullscreen(true));
+  fltBtn.addEventListener('click', () => setMapFullscreen(false));
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && document.body.classList.contains('map-fullscreen')) setMapFullscreen(false);
+  });
+})();
+
 // ── service worker registration (required for PWA installability) ─────────────
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
