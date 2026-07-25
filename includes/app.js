@@ -287,6 +287,8 @@ const map = new maplibregl.Map({
 });
 map.touchZoomRotate.disableRotation();
 map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+// Fullscreen the whole right pane (map + legend + mobile popup modal), not just the canvas
+map.addControl(new maplibregl.FullscreenControl({ container: document.getElementById('right-pane') }), 'top-right');
 map.on('click', e => { if (map.getLayer('events-unclustered') && !map.queryRenderedFeatures(e.point, { layers: ['events-unclustered'] }).length && openPopup) openPopup.remove(); });
 let _moveRAF = null;
 map.on('move', () => {
@@ -1313,22 +1315,21 @@ document.getElementById('radius-slider').addEventListener('input', e => {
   }
 });
 
-// ── map fullscreen / filter toggle ────────────────────────────────────────────
+// ── mobile filter toggle: hide the filter bar, give the freed space to the map ─
 (function () {
-  const fsBtn  = document.getElementById('btn-map-fullscreen');
-  const fltBtn = document.getElementById('btn-map-filters');
-
-  function setMapFullscreen(on) {
-    document.body.classList.toggle('map-fullscreen', on);
-    fsBtn.hidden = on;
-    fltBtn.hidden = !on;
+  const btn = document.getElementById('btn-filter-toggle');
+  btn.addEventListener('click', () => {
+    const hide = !document.body.classList.contains('filters-hidden');
+    if (hide) {
+      const h = document.getElementById('filter-bar').offsetHeight;
+      document.documentElement.style.setProperty('--fbar-h', h + 'px');
+    }
+    document.body.classList.toggle('filters-hidden', hide);
+    btn.classList.toggle('active', hide);
+    const label = hide ? 'Filter einblenden' : 'Filter ausblenden';
+    btn.title = label;
+    btn.setAttribute('aria-label', label);
     map.resize();
-  }
-
-  fsBtn.addEventListener('click', () => setMapFullscreen(true));
-  fltBtn.addEventListener('click', () => setMapFullscreen(false));
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && document.body.classList.contains('map-fullscreen')) setMapFullscreen(false);
   });
 })();
 

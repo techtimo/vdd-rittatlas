@@ -131,13 +131,16 @@ button.popup-doc-ics { border: none; font: inherit; cursor: pointer; }
 .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #333; white-space: nowrap; }
 .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
-/* ── map fullscreen / filter toggle ── */
-#map-mode-controls { position: absolute; top: 78px; right: 10px; z-index: 3; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
-.map-mode-btn { display: flex; align-items: center; gap: 5px; height: 29px; padding: 0 8px; background: #fff; border: none; border-radius: 4px; box-shadow: 0 0 0 2px rgba(0,0,0,.1); cursor: pointer; font-size: 12px; font-weight: 600; color: #333; }
-.map-mode-btn:hover { background: #f2f2f2; }
-.map-mode-btn[hidden] { display: none; }
-body.map-fullscreen #left-pane { display: none; }
-body.map-fullscreen #right-pane { flex: 1 1 100%; }
+/* ── mobile filter toggle (map fullscreen uses the standard MapLibre control) ── */
+#btn-filter-toggle { display: none; position: absolute; top: 118px; right: 10px; z-index: 3; width: 29px; height: 29px; align-items: center; justify-content: center; padding: 0; background: #fff; border: none; border-radius: 4px; box-shadow: 0 0 0 2px rgba(0,0,0,.1); cursor: pointer; color: #333; }
+#btn-filter-toggle:hover { background: #f2f2f2; }
+#btn-filter-toggle.active { background: #2ea3f2; color: #fff; }
+#right-pane:fullscreen #btn-filter-toggle { display: none; }
+@media (max-width: 860px) {
+  #btn-filter-toggle { display: flex; }
+  body.filters-hidden #filter-bar { display: none; }
+  body.filters-hidden #right-pane { flex: 0 0 calc(40% + var(--fbar-h, 92px)); }
+}
 
 /* ── location / radius ── */
 #loc-controls { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
