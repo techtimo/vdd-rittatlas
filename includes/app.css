@@ -131,6 +131,16 @@ button.popup-doc-ics { border: none; font: inherit; cursor: pointer; }
 .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #333; white-space: nowrap; }
 .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
+/* ── mobile filter toggle (map fullscreen uses the standard MapLibre control) ── */
+#btn-filter-toggle { display: none; align-items: center; justify-content: center; padding: 4px 8px; border: 1px solid #bbb; border-radius: 4px; background: #fff; cursor: pointer; color: #333; flex-shrink: 0; }
+#btn-filter-toggle:hover { background: #e8f0fe; }
+#btn-filter-toggle.active { background: #2ea3f2; border-color: #2ea3f2; color: #fff; }
+@media (max-width: 860px) {
+  #btn-filter-toggle { display: flex; }
+  body.filters-hidden #filter-bar { display: none; }
+  body.filters-hidden #right-pane { flex: 0 0 calc(40% + var(--fbar-h, 92px)); }
+}
+
 /* ── location / radius ── */
 #loc-controls { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
 #btn-locate { padding: 4px 9px; border: 1px solid #bbb; border-radius: 4px; background: #fff; font-size: 12px; cursor: pointer; white-space: nowrap; line-height: 1.4; min-width: 96px; text-align: center; }
