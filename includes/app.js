@@ -693,6 +693,7 @@ function eventVisible(ev) {
 }
 
 function applyFilters() {
+  if (!tbl) return;
   updateLegend();
   tbl.setFilter(eventVisible);
 }
@@ -1316,22 +1317,32 @@ document.getElementById('radius-slider').addEventListener('input', e => {
 });
 
 // ── mobile filter toggle: hide the filter bar, give the freed space to the map ─
-(function () {
-  const btn = document.getElementById('btn-filter-toggle');
-  btn.addEventListener('click', () => {
-    const hide = !document.body.classList.contains('filters-hidden');
-    if (hide) {
-      const h = document.getElementById('filter-bar').offsetHeight;
-      document.documentElement.style.setProperty('--fbar-h', h + 'px');
-    }
-    document.body.classList.toggle('filters-hidden', hide);
-    btn.classList.toggle('active', hide);
-    const label = hide ? 'Filter einblenden' : 'Filter ausblenden';
-    btn.title = label;
-    btn.setAttribute('aria-label', label);
-    map.resize();
-  });
-})();
+const filterToggleBtn = document.getElementById('btn-filter-toggle');
+
+// Measures the filter bar even while it is hidden (toggle class off/on without paint)
+function updateFbarHeight() {
+  const wasHidden = document.body.classList.contains('filters-hidden');
+  if (wasHidden) document.body.classList.remove('filters-hidden');
+  const h = document.getElementById('filter-bar').offsetHeight;
+  if (wasHidden) document.body.classList.add('filters-hidden');
+  document.documentElement.style.setProperty('--fbar-h', h + 'px');
+}
+
+function setFiltersHidden(hide) {
+  updateFbarHeight();
+  document.body.classList.toggle('filters-hidden', hide);
+  filterToggleBtn.classList.toggle('active', !hide);
+  const label = hide ? 'Filter einblenden' : 'Filter ausblenden';
+  filterToggleBtn.title = label;
+  filterToggleBtn.setAttribute('aria-label', label);
+  map.resize();
+}
+
+filterToggleBtn.addEventListener('click', () =>
+  setFiltersHidden(!document.body.classList.contains('filters-hidden')));
+
+// Filteransicht ist standardmäßig ausgeblendet (wirkt nur mobil)
+setFiltersHidden(true);
 
 // ── service worker registration (required for PWA installability) ─────────────
 if ('serviceWorker' in navigator) {
@@ -1576,6 +1587,8 @@ async function loadVddData() {
     });
     typeRow.appendChild(btn);
   });
+  // the type toggles change the filter bar height → re-measure for the mobile map sizing
+  updateFbarHeight();
 
   // Render the table immediately; don't gate it on the basemap tiles, which
   // can be slow to fetch on a first-ever visit. Markers are added via the
