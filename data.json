@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-20 15:06:03",
+  "scraped_at": "2026-08-02 08:32:40",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -2544,7 +2544,7 @@
       "cei": null,
       "announcement_pdf": "2026 Schusteracht.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Schusteracht2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2018,
@@ -2552,7 +2552,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-04T21:22:43Z"
+      "wiki_touched": "2026-08-02T06:14:59Z"
     },
     {
       "id": "7. Hohenholzer Distanzritt 2026",
@@ -2914,7 +2914,7 @@
       "cei": null,
       "announcement_pdf": "2026-Weserberglanddistanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Weserbergland2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2016,
@@ -2922,7 +2922,7 @@
       "bemerkung": null,
       "ritt_bild": "2017-05-weserberglanddistanz-12.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-03T08:28:17Z"
+      "wiki_touched": "2026-08-02T06:15:22Z"
     },
     {
       "id": "Beluga Arabian Cup 2026",
@@ -3358,7 +3358,7 @@
       "cei": null,
       "announcement_pdf": "2026-Hunsrueckstaffette.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Hunsrück Stafette2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -3366,7 +3366,7 @@
       "bemerkung": "- 4 Reittage\n\n- jede Tagesetappe kann einzeln geritten werden\n\n- gutes Geläuf für Barfußpferde",
       "ritt_bild": "2016-05-hunsrueckstafette-2.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-03-25T06:24:26Z"
+      "wiki_touched": "2026-08-02T06:19:26Z"
     },
     {
       "id": "3. Hegau Distanz 2026",
@@ -3691,7 +3691,7 @@
       "cei": null,
       "announcement_pdf": "2026-06-BlickinsOderland.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Blick ins Oderland VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2026,
@@ -3699,7 +3699,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-01-13T08:12:15Z"
+      "wiki_touched": "2026-08-02T06:14:39Z"
     },
     {
       "id": "5 Tage im Norden 2026",
@@ -3765,7 +3765,7 @@
       "cei": null,
       "announcement_pdf": "2026-dreilaendereckdistanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "3Länder Eck Distanz2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -3773,7 +3773,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-03-18T11:23:23Z"
+      "wiki_touched": "2026-08-02T06:12:55Z"
     },
     {
       "id": "Hexengrund Distanz 2026",
@@ -3839,7 +3839,7 @@
       "cei": null,
       "announcement_pdf": "2026-Iller-Oxen.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Iller-Oxen-Tour2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2021,
@@ -3847,7 +3847,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-04T21:22:16Z"
+      "wiki_touched": "2026-08-02T06:13:19Z"
     },
     {
       "id": "Distanzritt um die Ahlhorner Heide 2026",
@@ -3876,7 +3876,7 @@
       "cei": null,
       "announcement_pdf": "Ausschreibung Ahlhorner Heide 2026.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Um die Ahlhorner Heide2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2016,
@@ -3884,7 +3884,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-03-06T21:07:52Z"
+      "wiki_touched": "2026-08-02T06:14:13Z"
     },
     {
       "id": "Kabardiner Frühjahrs-Distanz 2026",
@@ -4061,7 +4061,7 @@
       "cei": null,
       "announcement_pdf": "2016-Thomashofdistanzneu.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Thomashof CJP VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -4069,7 +4069,7 @@
       "bemerkung": "Mit CJP",
       "ritt_bild": "Rittbild.JPG",
       "rittvorrat": 0,
-      "wiki_touched": "2026-04-30T10:39:52Z"
+      "wiki_touched": "2026-08-02T06:13:49Z"
     },
     {
       "id": "SattelFest Dormagen 2026",
@@ -8277,7 +8277,7 @@
       "ldr": null,
       "mtr": "104 (61/43)",
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026-Ausschreibung-abachs.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8287,7 +8287,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2025-10-24T07:24:08Z"
+      "wiki_touched": "2026-08-02T06:16:13Z"
     },
     {
       "id": "Triebischtal Ritt 2026",
@@ -8684,7 +8684,7 @@
       "ldr": "81",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026-10-Triangel.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8694,7 +8694,7 @@
       "bemerkung": "- gutes Geläuf für Barfußpferde\nDreitagesritt",
       "ritt_bild": "2017-08-triangel-03.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2025-10-19T06:57:24Z"
+      "wiki_touched": "2026-08-02T06:17:21Z"
     },
     {
       "id": "Ummel und Meer 2026",
