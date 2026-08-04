@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-02 08:32:40",
+  "scraped_at": "2026-08-04 12:39:06",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -2248,7 +2248,7 @@
       "cei": null,
       "announcement_pdf": "Krokus 2026.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Krokus 2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2010,
@@ -2256,7 +2256,7 @@
       "bemerkung": null,
       "ritt_bild": "2017-04-krokus-distanz-06.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-19T09:41:02Z"
+      "wiki_touched": "2026-08-04T10:36:25Z"
     },
     {
       "id": "Land der Rappen 2026",
@@ -4135,7 +4135,7 @@
       "cei": null,
       "announcement_pdf": "ÜberdieAlb2026.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Über die Alb2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2017,
@@ -4143,7 +4143,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2025-12-29T13:50:18Z"
+      "wiki_touched": "2026-08-04T10:36:50Z"
     },
     {
       "id": "100 Meilen von Hitzacker 2026",
@@ -6686,7 +6686,7 @@
       "ldr": "82",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026-AltRuedersdorfu.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -6696,7 +6696,7 @@
       "bemerkung": "Kinderritt am 30.8",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-04T09:07:09Z"
+      "wiki_touched": "2026-08-04T10:35:28Z"
     },
     {
       "id": "Buch Heu Distanz 2026",
