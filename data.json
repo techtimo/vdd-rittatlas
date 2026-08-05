@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-04 12:39:06",
+  "scraped_at": "2026-08-05 12:33:58",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -8166,7 +8166,7 @@
       "ldr": "81, 104,120",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026-09-Stuhr.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8176,7 +8176,7 @@
       "bemerkung": "Neu: Aufsteigerritt",
       "ritt_bild": "stuhrer-distanz.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-07-20T10:32:38Z"
+      "wiki_touched": "2026-08-05T10:19:06Z"
     },
     {
       "id": "12. Eichwalddistanz 2026",
@@ -8910,13 +8910,13 @@
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
-      "status": "steht fest",
+      "status": "wurde abgesagt",
       "first_edition_year": null,
       "website": "http://stuhr-distanz.de",
       "bemerkung": null,
       "ritt_bild": "Stuhrer-distanz-oldenburg.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2025-11-04T21:35:05Z"
+      "wiki_touched": "2026-08-05T10:19:51Z"
     },
     {
       "id": "Stukenbrocker Senne Distanz 2026",
