@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-05 12:33:58",
+  "scraped_at": "2026-08-06 09:38:29",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -1952,7 +1952,7 @@
       "cei": null,
       "announcement_pdf": "Ausschreibung 08. Finteler Distanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "FintelerDistanz2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -1960,7 +1960,7 @@
       "bemerkung": null,
       "ritt_bild": "Rittbild fintel1.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-01-22T20:01:50Z"
+      "wiki_touched": "2026-08-06T06:59:31Z"
     },
     {
       "id": "Sieben-Mühlen-Distanz 2026",
@@ -3788,8 +3788,8 @@
       "region": "Thüringen",
       "country": "Deutschland",
       "venue": "Luisenturm, 07407 Uhlstädt-Kirchhasel",
-      "lat": 50.751975,
-      "lon": 11.3457611111,
+      "lat": 50.7517555556,
+      "lon": 11.4320388889,
       "organizer": "Annette Jahn \nEngerda 32 \n 07407 Uhlstädt-Kirchhasel \nE-Mail annettekoellmer@gmail.com \nTel. 017647016000",
       "contact": null,
       "patron": null,
@@ -3802,7 +3802,7 @@
       "cei": null,
       "announcement_pdf": "Ausschreibung-Hexengrunddistanz 2026 final mU (1).pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Hexengrund Distanz VDD Liste.pdf",
       "registration_pdf": "VDD_Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -3810,7 +3810,7 @@
       "bemerkung": "Mit Schnupperdistanz 21km und Kinderdistanz 5km",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-03-10T21:43:58Z"
+      "wiki_touched": "2026-08-06T06:59:00Z"
     },
     {
       "id": "Iller-OXen-Tour 2026",
@@ -4431,7 +4431,7 @@
       "cei": null,
       "announcement_pdf": "Ausschreibung Stuhr Juli 2026 (1).pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Stuhr Juli VDD 2026 Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -4439,7 +4439,7 @@
       "bemerkung": null,
       "ritt_bild": "stuhrer-distanz.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-30T09:36:42Z"
+      "wiki_touched": "2026-08-06T06:58:36Z"
     },
     {
       "id": "Schönauer Waldritt 2026",
