@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-06 09:38:29",
+  "scraped_at": "2026-08-07 13:44:33",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -4505,7 +4505,7 @@
       "cei": null,
       "announcement_pdf": "Spessartperle 2026.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "SpessartperleRevival VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -4513,7 +4513,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-19T09:42:25Z"
+      "wiki_touched": "2026-08-07T10:06:39Z"
     },
     {
       "id": "1. Sommerwalddistanz 2026",
@@ -6797,7 +6797,7 @@
       "ldr": "90",
       "mtr": "139,116",
       "cei": null,
-      "announcement_pdf": "2026 FestimSattel2.pdf",
+      "announcement_pdf": "2026-FestimSattel2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD_Nennung.pdf",
@@ -6807,7 +6807,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-07-14T20:17:54Z"
+      "wiki_touched": "2026-08-07T10:05:36Z"
     },
     {
       "id": "Sauerlänger Querfeldein Fahrt 2026",
