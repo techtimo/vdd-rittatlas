@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-07 13:44:33",
+  "scraped_at": "2026-08-11 22:42:26",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -5060,7 +5060,7 @@
       "cei": null,
       "announcement_pdf": "2026HoheMark.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Hohe Mark Distanz VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2026,
@@ -5068,7 +5068,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-05-28T20:08:01Z"
+      "wiki_touched": "2026-08-11T20:38:27Z"
     },
     {
       "id": "Maifelddistanz 2026",
@@ -8092,7 +8092,7 @@
       "ldr": "81,100,120",
       "mtr": "82 (41/41)",
       "cei": null,
-      "announcement_pdf": "2026-Brottewitz_Distanzou.PDF",
+      "announcement_pdf": "2026-Brottewitz3.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8102,7 +8102,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-07-20T10:40:44Z"
+      "wiki_touched": "2026-08-11T20:27:49Z"
     },
     {
       "id": "Eisborner Herbstdistanz 2026",
