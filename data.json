@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-18 13:24:13",
+  "scraped_at": "2026-08-25 13:26:38",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -6797,7 +6797,7 @@
       "ldr": "90",
       "mtr": "139,116",
       "cei": null,
-      "announcement_pdf": "2026-FestimSattel2.pdf",
+      "announcement_pdf": "2026-FestimSattelDisatnz4.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD_Nennung.pdf",
@@ -6807,7 +6807,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-07T10:05:36Z"
+      "wiki_touched": "2026-08-25T11:09:49Z"
     },
     {
       "id": "Sauerlänger Querfeldein Fahrt 2026",
@@ -8832,7 +8832,7 @@
       "ldr": "100,120,160",
       "mtr": null,
       "cei": "CEI*, CEI**, CEI***, CEIYJ*",
-      "announcement_pdf": null,
+      "announcement_pdf": "2026-Buch–Herbst.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8842,7 +8842,7 @@
       "bemerkung": "Boxenpflicht für LDR",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2025-11-28T21:21:32Z"
+      "wiki_touched": "2026-08-25T11:10:15Z"
     },
     {
       "id": "Steinbachdistanz 2026",
