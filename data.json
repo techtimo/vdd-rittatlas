@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-29 14:22:11",
+  "scraped_at": "2026-08-30 00:24:04",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -8166,7 +8166,7 @@
       "ldr": "81, 104,120",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "2026-09-Stuhr.pdf",
+      "announcement_pdf": "2026-09-Stuhr3.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8176,7 +8176,7 @@
       "bemerkung": "Neu: Aufsteigerritt",
       "ritt_bild": "stuhrer-distanz.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-05T10:19:06Z"
+      "wiki_touched": "2026-08-29T20:21:13Z"
     },
     {
       "id": "12. Eichwalddistanz 2026",
