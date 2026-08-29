@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-25 13:26:38",
+  "scraped_at": "2026-08-29 14:22:11",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -7681,7 +7681,7 @@
       "event_types": "Distanzritt, Distanzfahrt",
       "efr": null,
       "kdr": "41,44",
-      "mdr": "61",
+      "mdr": "61,80",
       "ldr": "82",
       "mtr": "128(84/44)",
       "cei": null,
@@ -7695,7 +7695,7 @@
       "bemerkung": "Der Distanzritt Abenteuer Pfälzer Wald ist ein 2-Tagesritt über 128 km. Tag 1 – 84 km. 64 km bzw. 42 km, Tag 2 – 44 km. Startort ist Lemberg, das liegt in der Nähe von Pirmasens (Rheinland Pfalz). Am ersten Tag kann der Ritt auch bei 64 km beendet werden. Der Rücktransport für den KDR von 42 km muss selber organisiert werden – sowie auch der Rücktransport bei 64 km organisiert werden muss. Die Veranstalterin hilft hierbei gerne. Die Strecken an beiden Tagen sind keine Rundwege sondern von A nach B und von B zurück nach A. Am Tag 1 gibt es 3 Pausen. Die erste Pause bei 20 km, die 2. Pause am Wendepunkt 42 km und wieder am ersten Ort der 1. Pause bei 64 km. Tag 2 hat die Pause am Wendepunkt bei 22 km. Natürlich können die Tagesetappen auch einzeln genannt werden. Der Ritt geht durch schöne Landschaften des Pfälzer Waldes (am Tag eins liegt der Wendepunkt in Frankreich), vorwiegend auf Waldwegen. Die Strecke führt durch den wunderschönen Pfälzer Wald und schon bald nach dem Start geht es erstmal ein paar Kilometer bergauf. Ist man erstmal oben angekommen, reitet man schöne Wege parallel zum Berg, doch geht es immer wieder mal bergauf oder bergab. Ich persönlich empfehle einen Hufschutz, selbst im schönen Pfälzer Wald gibt es mittlerweile viele steinige Wege. Hier und da sind leider auch ein paar asphaltierte Wege zu bereiten. Für die Gastro sorgen die umliegenden Gaststätten, bei manchen ist es ein Vorteil, sich nach Ankunft des Veranstaltungsortes einen Tisch zu reservieren. Das Mitnehmen eines Campingklos kann auch nicht schaden. (ae)",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-06T07:36:38Z"
+      "wiki_touched": "2026-08-29T06:09:26Z"
     },
     {
       "id": "Emsland Ritt 2026",
@@ -9198,21 +9198,21 @@
       "event_types": "Distanzritt, Kinderritt, Distanzfahrt",
       "efr": "35",
       "kdr": "50",
-      "mdr": null,
+      "mdr": "80",
       "ldr": null,
       "mtr": null,
       "cei": null,
       "announcement_pdf": "2026-Pyramid2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
-      "registration_pdf": "VDD-Nennung.pdf",
+      "registration_pdf": "2026-PyramidCup3.pdf",
       "status": "steht fest",
       "first_edition_year": null,
       "website": null,
       "bemerkung": null,
       "ritt_bild": "Pyramid-society-cup.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-04-14T09:53:06Z"
+      "wiki_touched": "2026-08-29T06:09:02Z"
     },
     {
       "id": "Herbst-Distanz am Meer 2026",
