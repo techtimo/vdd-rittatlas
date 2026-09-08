@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-01 15:08:59",
+  "scraped_at": "2026-09-08 23:36:23",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -8048,14 +8048,14 @@
       "organizer": "RSV Quellenhof Bodensee e.V.\nUrsaul 1A\n78333 Stockach\nrsv-quellenhof-bodensee@web.de",
       "contact": "RSV Quellenhof Bodensee e.V.\nUrsaul 1A\n78333 Stockach\nrsv-quellenhof-bodensee@web.de",
       "patron": null,
-      "event_types": "Distanzritt, Kinderritt",
+      "event_types": "Distanzritt, Kinderritt, Distanzfahrt",
       "efr": "37",
       "kdr": "54",
       "mdr": "64",
       "ldr": "88",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "BodenseeEnduranceCup2026.pdf",
+      "announcement_pdf": "BodenseeEnduranceCup2026mitFahrt.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8065,7 +8065,7 @@
       "bemerkung": "Der Quellenhof Bodensee Endurance Cup wird 2026 zum zweiten Mal veranstaltet. \nUnser Distanzritt verbindet abwechslungsreiche Strecken mit einem beheizten \nFestzelt und leckerer Verpflegung durch den Reitverein. \nDer Ritt besteht aus 4 Loops, die je nach Streckenlänge kombiniert werden – dabei \nwird kein Loop doppelt geritten. Es gibt ein zentrales Gate am Camp, die \nTierarztuntersuchungen finden in der Reithalle statt. \nDie Strecken sind markiert, zusätzlich werden .gpx-tracks zur Verfügung gestellt. \nWas euch auf der Strecke erwartet: - \nBodensee-Loop: Das Highlight dieses Loops ist die Aussicht auf den \nBodensee. Bei klarer Sicht reicht der Blick bis zu den Alpen und bietet ein \nschönes Panorama. - - - \nGaloppwald-Loop: Auf diesem Loop reitet ihr zunächst in leichten Kurven \ndurch den sog. „Engelswald“ indem ihr an einer Felsenwand zahlreichen \nEngelsskulpturen begegnet. Anschließend führt die Strecke entlang der \nSchwackenreuter Seenplatte mit Blick auf die Seen und das \nNaturschutzgebiet. Der anschließende Loop lädt trotz teils harten Geläufs zum \nGaloppieren ein. \nSattelöse-Loop: Ein flüssig zu reitender Loop \nHeimwald-Loop: 10 kurzweilige Kilometer, die auf einem weichen Waldboden\nPfad beginnen und anschließend durch unseren heimischen Trainingswald \nführen. \nAm Sonntag wird außerdem ein Sternritt mit anschließender Pferdesegnung \nangeboten.",
       "ritt_bild": "Quellenhof2.png",
       "rittvorrat": 0,
-      "wiki_touched": "2026-07-20T10:43:42Z"
+      "wiki_touched": "2026-09-08T19:48:07Z"
     },
     {
       "id": "Brottewitz Distanz 2026",
