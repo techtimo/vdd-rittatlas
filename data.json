@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-08 23:36:23",
+  "scraped_at": "2026-09-15 13:12:34",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -4394,7 +4394,7 @@
       "cei": null,
       "announcement_pdf": "2026-SommernachtDistanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "2026 Sommernachtsdistanz VDD Liste.pdf",
       "registration_pdf": "VDD_Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2026,
@@ -4402,7 +4402,7 @@
       "bemerkung": "Erstveranstaltung, mit Kinderritt",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-05-26T08:24:05Z"
+      "wiki_touched": "2026-09-15T11:00:49Z"
     },
     {
       "id": "Stuhrer-Distanz Juli 2026",
@@ -4803,13 +4803,13 @@
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
-      "status": "ist vorläufig",
+      "status": "wurde abgesagt",
       "first_edition_year": null,
       "website": null,
       "bemerkung": "Termin wird wahrscheinlich noch geändert",
       "ritt_bild": "2017-07-an-der-stroeher-aue-15.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2025-11-04T21:37:52Z"
+      "wiki_touched": "2026-09-15T11:03:47Z"
     },
     {
       "id": "11. Reitenberg Distanz 2026",
@@ -5504,7 +5504,7 @@
       "cei": null,
       "announcement_pdf": "2026 EifelRotte2.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Eifel_Rotte_2026VDD_Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -5512,7 +5512,7 @@
       "bemerkung": null,
       "ritt_bild": "Eifelrotte.png",
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-01T19:32:48Z"
+      "wiki_touched": "2026-09-15T11:02:04Z"
     },
     {
       "id": "Ranchritt Düben Sommer 2026",
@@ -5527,8 +5527,8 @@
       "region": "Sachsen-Anhalt",
       "country": "Deutschland",
       "venue": "Dübener Dorfstraße 65, 06869 Coswig (Anhalt)",
-      "lat": 51.9282472222,
-      "lon": 12.3903166667,
+      "lat": 51.9280055556,
+      "lon": 12.3886694444,
       "organizer": "Gudrun Perowicz \n\nBeaver Creek Ranch \n\nDübener Dorfstr. 65 \n\n06869 Coswig OT Düben \n\nE-Mail biberbachranch@aol.com",
       "contact": "Thomas Schneider \n\nBeaver Creek Ranch \n\nDübener Dorfstr. 65 \n\n06869 Coswig OT Düben \n\nE-Mail biberbachranch@aol.com",
       "patron": null,
@@ -5549,7 +5549,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 1,
-      "wiki_touched": "2025-10-19T06:51:08Z"
+      "wiki_touched": "2026-09-15T10:57:37Z"
     },
     {
       "id": "Steckenrother Distanzritte 2026",
@@ -5578,7 +5578,7 @@
       "cei": null,
       "announcement_pdf": "Steckenroth 2026.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Steckenroth VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -5586,7 +5586,7 @@
       "bemerkung": null,
       "ritt_bild": "Steckenrother-distanzritte.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-05-04T10:06:27Z"
+      "wiki_touched": "2026-09-15T11:02:35Z"
     },
     {
       "id": "Steigerwald-Ritt 2019 2026",
@@ -5800,7 +5800,7 @@
       "cei": null,
       "announcement_pdf": "SchwäbischeAlb2026geändert.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "SchwaebischeAlb2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -5808,7 +5808,7 @@
       "bemerkung": "MTR ca. 340 km, erster Ritttag Donnerstag",
       "ritt_bild": "2017-07-schwaebische-alb-05.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-03-10T05:33:47Z"
+      "wiki_touched": "2026-09-15T11:02:57Z"
     },
     {
       "id": "1. Weschnitztal-Distanz 2026",
@@ -5948,7 +5948,7 @@
       "cei": null,
       "announcement_pdf": "2026-BuchholzerDistanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Buchholzer Distanz VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2019,
@@ -5956,7 +5956,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-12T10:24:48Z"
+      "wiki_touched": "2026-09-15T10:56:29Z"
     },
     {
       "id": "Ranchritt Düben 2026",
@@ -5985,7 +5985,7 @@
       "cei": null,
       "announcement_pdf": "2026-Ranchritt.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Dueben VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -5993,7 +5993,7 @@
       "bemerkung": null,
       "ritt_bild": "IMGP8108.JPG",
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-24T09:17:52Z"
+      "wiki_touched": "2026-09-15T10:57:47Z"
     },
     {
       "id": "Egyptian Event Europe 2026",
@@ -6244,7 +6244,7 @@
       "cei": null,
       "announcement_pdf": "DonQuijote2026.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Don Quijote2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2016,
@@ -6252,7 +6252,7 @@
       "bemerkung": null,
       "ritt_bild": "2017-08-don-quijote 02.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-22T07:00:59Z"
+      "wiki_touched": "2026-09-15T10:56:52Z"
     },
     {
       "id": "Sprottenritte Heede 2026",
@@ -6378,8 +6378,8 @@
       "region": "Sachsen",
       "country": "Deutschland",
       "venue": "Dorfstraße 01561 Tauscha",
-      "lat": 51.2488361111,
-      "lon": 13.7953666667,
+      "lat": 51.2672527778,
+      "lon": 13.8004694444,
       "organizer": "Verein Deutscher Distanzreiter und-fahrer e.V. \n\n\noffice@vdd-aktuell.de",
       "contact": "Miriam Lewin\n\nReitverein Am Fließ e.V.\n\nGoetheallee 8\n\n15366 Hoppegarten",
       "patron": null,
@@ -6392,7 +6392,7 @@
       "cei": null,
       "announcement_pdf": "2026-08-DMFahren-V2.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Saxonia VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -6400,7 +6400,7 @@
       "bemerkung": "Deutsche Meisterschaft Distanzfahren im Rahmen der Saxonia Distanz",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-05-05T08:12:18Z"
+      "wiki_touched": "2026-09-15T10:58:04Z"
     },
     {
       "id": "Saxonia Distanz 2026",
@@ -6429,7 +6429,7 @@
       "cei": null,
       "announcement_pdf": "2026 Saxonia.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Saxonia VDD Liste 2026.pdf",
       "registration_pdf": "VDD Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -6437,7 +6437,7 @@
       "bemerkung": "Mit Fahrermeisterschaft, ohne Wertung für NDC",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-05-05T08:11:47Z"
+      "wiki_touched": "2026-09-15T10:57:52Z"
     },
     {
       "id": "Ritt durch die Wildeshauser Geest 2026",
@@ -8092,7 +8092,7 @@
       "ldr": "81,100,120",
       "mtr": "82 (41/41)",
       "cei": null,
-      "announcement_pdf": "2026-Brottewitz3.pdf",
+      "announcement_pdf": "2026 Brottewitz2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8102,7 +8102,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-11T20:27:49Z"
+      "wiki_touched": "2026-09-15T11:09:28Z"
     },
     {
       "id": "Eisborner Herbstdistanz 2026",
@@ -8832,7 +8832,7 @@
       "ldr": "100,120,160",
       "mtr": null,
       "cei": "CEI*, CEI**, CEI***, CEIYJ*",
-      "announcement_pdf": "2026-Buch–Herbst.pdf",
+      "announcement_pdf": "2026 Buchdistanz3.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8842,7 +8842,7 @@
       "bemerkung": "Boxenpflicht für LDR",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-25T11:10:15Z"
+      "wiki_touched": "2026-09-15T11:07:37Z"
     },
     {
       "id": "Steinbachdistanz 2026",
@@ -9202,17 +9202,17 @@
       "ldr": null,
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "2026-Pyramid2.pdf",
+      "announcement_pdf": "Pyramid2026geändert2.pdf",
       "announcement_updated": null,
       "results_pdf": null,
-      "registration_pdf": "2026-PyramidCup3.pdf",
+      "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
       "website": null,
       "bemerkung": null,
       "ritt_bild": "Pyramid-society-cup.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-29T06:09:02Z"
+      "wiki_touched": "2026-09-15T11:06:11Z"
     },
     {
       "id": "Herbst-Distanz am Meer 2026",
@@ -9270,8 +9270,8 @@
       "contact": "Ina Baader\nEdelsteinstraße 2\n\n69198 Schriesheim",
       "patron": null,
       "event_types": "Distanzritt",
-      "efr": null,
-      "kdr": null,
+      "efr": "26",
+      "kdr": "42",
       "mdr": null,
       "ldr": null,
       "mtr": null,
@@ -9283,10 +9283,10 @@
       "status": "steht fest",
       "first_edition_year": null,
       "website": null,
-      "bemerkung": "Ritt findet am Sonntag statt",
+      "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-02-03T20:34:58Z"
+      "wiki_touched": "2026-09-15T11:08:25Z"
     },
     {
       "id": "Rickling Oktober 2026",
