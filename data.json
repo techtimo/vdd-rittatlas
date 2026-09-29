@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-15 13:12:34",
+  "scraped_at": "2026-09-29 19:43:44",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -492,7 +492,7 @@
       "start_date": "2026-03-20",
       "end_date": "2026-03-22",
       "multi_day": 1,
-      "region": "Niedersachsen Nord",
+      "region": "Weser-Ems",
       "country": "Deutschland",
       "venue": "Hof Kniemeyer\n\nLanger Weg 46\n\n28816 Stuhr",
       "lat": 52.9793888889,
@@ -517,7 +517,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-04-14T09:51:07Z"
+      "wiki_touched": "2026-09-29T12:34:43Z"
     },
     {
       "id": "Hassellache Distanz 2026",
@@ -3156,7 +3156,7 @@
       "start_date": "2026-05-29",
       "end_date": "2026-05-31",
       "multi_day": 1,
-      "region": "Niedersachsen Nord",
+      "region": "Weser-Ems",
       "country": "Deutschland",
       "venue": "Hof Kniemeyer\n\nLanger Weg 46\n\n28816 Stuhr",
       "lat": 52.9793888889,
@@ -3181,7 +3181,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-11T13:41:02Z"
+      "wiki_touched": "2026-09-29T12:35:09Z"
     },
     {
       "id": "Lindstedterhorst-Distanz 2026",
@@ -4414,7 +4414,7 @@
       "start_date": "2026-07-03",
       "end_date": "2026-07-05",
       "multi_day": 1,
-      "region": "Niedersachsen Nord",
+      "region": "Weser-Ems",
       "country": "Deutschland",
       "venue": "Hof Kniemeyer\n\nLanger Weg 46\n\n28816 Stuhr\n\nDeutschland",
       "lat": 52.9793888889,
@@ -4439,7 +4439,7 @@
       "bemerkung": null,
       "ritt_bild": "stuhrer-distanz.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-06T06:58:36Z"
+      "wiki_touched": "2026-09-29T12:38:18Z"
     },
     {
       "id": "Schönauer Waldritt 2026",
@@ -6355,7 +6355,7 @@
       "cei": null,
       "announcement_pdf": "2026-Alfbachtal.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "AlfbachtalDistanz2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2022,
@@ -6363,7 +6363,7 @@
       "bemerkung": "Teilnehmer ab Jahrgang 1986\nAuch als Fahrt!",
       "ritt_bild": "Alfbachtalritt.jpeg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-04-14T14:19:40Z"
+      "wiki_touched": "2026-09-29T12:47:18Z"
     },
     {
       "id": "Deutsche Fahrermeisterschaft 2026",
@@ -6466,7 +6466,7 @@
       "cei": null,
       "announcement_pdf": "2026-WildeshauserGeest.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Durch die WildeshauserGeest VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2016,
@@ -6474,7 +6474,7 @@
       "bemerkung": "- barhuffähig für geübte Barhuf-Reiter",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-22T07:02:31Z"
+      "wiki_touched": "2026-09-29T13:02:36Z"
     },
     {
       "id": "Equus Arabian Cup 2026",
@@ -8151,7 +8151,7 @@
       "start_date": "2026-09-25",
       "end_date": "2026-09-27",
       "multi_day": 1,
-      "region": "Niedersachsen Nord",
+      "region": "Weser-Ems",
       "country": "Deutschland",
       "venue": "Hof Kniemeyer\n\nLanger Weg 46\n\n28816 Stuhr",
       "lat": 52.9793888889,
@@ -8166,7 +8166,7 @@
       "ldr": "81, 104,120",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "2026-09-Stuhr3.pdf",
+      "announcement_pdf": "2026-09-Stuhr4.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -8176,7 +8176,7 @@
       "bemerkung": "Neu: Aufsteigerritt",
       "ritt_bild": "stuhrer-distanz.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-29T20:21:13Z"
+      "wiki_touched": "2026-09-29T13:03:21Z"
     },
     {
       "id": "12. Eichwalddistanz 2026",
@@ -8891,7 +8891,7 @@
       "start_date": "2026-10-09",
       "end_date": "2026-10-11",
       "multi_day": 1,
-      "region": "Niedersachsen Nord",
+      "region": "Weser-Ems",
       "country": "Deutschland",
       "venue": "Hof Kniemeyer\n\nLanger Weg 46\n\n28816 Stuhr\n\nDeutschland",
       "lat": 52.9793888889,
@@ -8916,7 +8916,7 @@
       "bemerkung": null,
       "ritt_bild": "Stuhrer-distanz-oldenburg.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-05T10:19:51Z"
+      "wiki_touched": "2026-09-29T12:28:40Z"
     },
     {
       "id": "Stukenbrocker Senne Distanz 2026",
@@ -8943,17 +8943,17 @@
       "ldr": "88",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "2026 StukenbrokerSenne3 .pdf",
+      "announcement_pdf": null,
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
-      "status": "steht fest",
+      "status": "wurde abgesagt",
       "first_edition_year": 2014,
       "website": null,
       "bemerkung": "Genaue km stehen noch nicht fest",
       "ritt_bild": "2016-08-stukenbroker-senne-distanz-4.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-18T10:46:08Z"
+      "wiki_touched": "2026-09-29T12:27:53Z"
     },
     {
       "id": "1. Herbstdistanz 2026",
