@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-30 10:03:56",
+  "scraped_at": "2026-09-30 17:41:00",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -6503,7 +6503,7 @@
       "cei": null,
       "announcement_pdf": "2026-EquusArabianCup2.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Equus ArabianCup VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -6511,7 +6511,7 @@
       "bemerkung": "Ritt aufgrund von Influenza in der Region verschoben.",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-07-14T20:19:05Z"
+      "wiki_touched": "2026-09-30T08:04:28Z"
     },
     {
       "id": "16. Nordsee-Distanz 2026",
@@ -9239,7 +9239,7 @@
       "ldr": null,
       "mtr": null,
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026-AusschreibungHerbstdistanzMeer.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -9249,7 +9249,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-18T10:38:39Z"
+      "wiki_touched": "2026-09-30T10:50:51Z"
     },
     {
       "id": "VZAP-Cup 2026",
