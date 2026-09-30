@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-29 19:43:44",
+  "scraped_at": "2026-09-30 10:03:56",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -6799,7 +6799,7 @@
       "cei": null,
       "announcement_pdf": "2026-FestimSattelDisatnz4.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Fest im Sattel2026 VDD Liste.pdf",
       "registration_pdf": "VDD_Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2026,
@@ -6807,7 +6807,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-25T11:09:49Z"
+      "wiki_touched": "2026-09-30T08:03:46Z"
     },
     {
       "id": "Sauerlänger Querfeldein Fahrt 2026",
@@ -6873,7 +6873,7 @@
       "cei": null,
       "announcement_pdf": "2026-Nordpfalz2.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Nordpfalz VDD2026 Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2019,
@@ -6881,7 +6881,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-06-22T07:00:31Z"
+      "wiki_touched": "2026-09-30T07:16:04Z"
     },
     {
       "id": "Nordlicht Aukrug 2026",
@@ -6910,7 +6910,7 @@
       "cei": null,
       "announcement_pdf": "2026 Nordlichtritt.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Aukrug2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2026,
@@ -6918,7 +6918,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-07-07T19:20:32Z"
+      "wiki_touched": "2026-09-30T07:16:41Z"
     },
     {
       "id": "Krommerter Distanz 2026",
@@ -7058,7 +7058,7 @@
       "cei": null,
       "announcement_pdf": "2026-rhoendistanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Rhoendistanz VDD2026 Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -7066,7 +7066,7 @@
       "bemerkung": "Erstveranstaltung",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-05-28T20:07:23Z"
+      "wiki_touched": "2026-09-30T07:15:22Z"
     },
     {
       "id": "Dreiplatzdistanz 2026",
