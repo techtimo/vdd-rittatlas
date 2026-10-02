@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-30 17:41:00",
+  "scraped_at": "2026-10-02 21:00:18",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -7132,7 +7132,7 @@
       "cei": null,
       "announcement_pdf": "2026LangheckDistanz.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "LangheckDistanz2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -7140,7 +7140,7 @@
       "bemerkung": null,
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-04-27T09:50:49Z"
+      "wiki_touched": "2026-10-02T16:42:08Z"
     },
     {
       "id": "Ritt zum schwarzen Mann 2020 2026",
@@ -7724,7 +7724,7 @@
       "cei": null,
       "announcement_pdf": "2026-Emsland.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Emsland Distanz VDD Liste 2026.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 1998,
@@ -7732,7 +7732,7 @@
       "bemerkung": "- Teilnehmerbegrenzung",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2026-01-22T07:43:16Z"
+      "wiki_touched": "2026-10-02T16:42:30Z"
     },
     {
       "id": "Durchs Land der Franken Herbst",
@@ -9412,8 +9412,8 @@
       "region": "Berlin - Brandenburg",
       "country": "Deutschland",
       "venue": "04895 Brottewitz",
-      "lat": 51.4625611111,
-      "lon": 13.220475,
+      "lat": 51.4636083333,
+      "lon": 13.2200388889,
       "organizer": "Sandra Stamm und Frank Püschel\n\n\nMühlberger Str. 8\n\n04895 Brottewitz",
       "contact": null,
       "patron": null,
@@ -9424,7 +9424,7 @@
       "ldr": null,
       "mtr": null,
       "cei": null,
-      "announcement_pdf": null,
+      "announcement_pdf": "2026 Halloweendistanz.pdf",
       "announcement_updated": null,
       "results_pdf": null,
       "registration_pdf": "VDD-Nennung.pdf",
@@ -9434,7 +9434,7 @@
       "bemerkung": "Halloween-Distanz mit Kostüm",
       "ritt_bild": null,
       "rittvorrat": 0,
-      "wiki_touched": "2025-11-13T21:28:16Z"
+      "wiki_touched": "2026-10-02T16:41:48Z"
     },
     {
       "id": "8. Distanzritt Grosse Höhe 2026",
