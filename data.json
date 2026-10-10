@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-02 21:00:18",
+  "scraped_at": "2026-10-10 21:48:34",
   "events": [
     {
       "id": "7. Sand-Distanz 2026",
@@ -4059,9 +4059,9 @@
       "ldr": "81,107,120,142",
       "mtr": null,
       "cei": null,
-      "announcement_pdf": "Thomashof CJP VDD Liste.pdf",
+      "announcement_pdf": null,
       "announcement_updated": null,
-      "results_pdf": "Thomashof CJP VDD Liste.pdf",
+      "results_pdf": "Thomashof_CJP_VDD_Liste2.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -4069,7 +4069,7 @@
       "bemerkung": "Mit CJP",
       "ritt_bild": "Rittbild.JPG",
       "rittvorrat": 0,
-      "wiki_touched": "2026-09-01T09:49:09Z"
+      "wiki_touched": "2026-10-10T18:32:15Z"
     },
     {
       "id": "SattelFest Dormagen 2026",
@@ -5097,7 +5097,7 @@
       "cei": null,
       "announcement_pdf": "2026-Muenstermaifeld.pdf",
       "announcement_updated": null,
-      "results_pdf": "Maifeld Distanz2026 VDD Liste.pdf",
+      "results_pdf": "Maifeld2Distanz2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2002,
@@ -5105,7 +5105,7 @@
       "bemerkung": "Mit Landesmeisterschaft Fahren RLP/Saar",
       "ritt_bild": "2017-07-maifelddistanz-04.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-08-18T10:43:45Z"
+      "wiki_touched": "2026-10-10T18:28:49Z"
     },
     {
       "id": "10. Mainschleifen-Distanz 2026",
@@ -7095,7 +7095,7 @@
       "cei": null,
       "announcement_pdf": "2026-Dreiplatzdistanz-c.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "DreiplatzDistanz2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": 2009,
@@ -7103,7 +7103,7 @@
       "bemerkung": null,
       "ritt_bild": "2016-09-Dreiplatzdistanz-5.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-03-25T22:30:30Z"
+      "wiki_touched": "2026-10-10T18:29:40Z"
     },
     {
       "id": "Langheckdistanz 2026",
@@ -7465,7 +7465,7 @@
       "cei": null,
       "announcement_pdf": "2026-Kitzesberg2.pdf",
       "announcement_updated": null,
-      "results_pdf": null,
+      "results_pdf": "Kitzesbergdistanz2026 VDD Liste.pdf",
       "registration_pdf": "VDD-Nennung.pdf",
       "status": "steht fest",
       "first_edition_year": null,
@@ -7473,7 +7473,7 @@
       "bemerkung": "Detaillierte Info´s über die Kitzesbergdistanz auf der Ritt-Homepage www.endurance-bitz.de",
       "ritt_bild": "2016-09-kitzesbergdistanz-9.jpg",
       "rittvorrat": 0,
-      "wiki_touched": "2026-05-26T08:23:05Z"
+      "wiki_touched": "2026-10-10T18:32:52Z"
     },
     {
       "id": "Maaswald Revival 2026",
