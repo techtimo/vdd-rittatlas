@@ -2,7 +2,7 @@ name: Update map
 
 on:
   schedule:
-    - cron: '0 * * * *'   # every hour
+    - cron: '17 * * * *'  # every hour at :17 (off the :00 peak, fewer skipped runs)
   workflow_dispatch:        # manual trigger from GitHub UI
 
 jobs:
