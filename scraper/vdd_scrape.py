@@ -48,8 +48,13 @@ PROPS = (
     "|order=ascending"
 )
 
-QUERY_ACTIVE = "[[Veranstaltungsland::Deutschland]][[Kategorie:Ritt in 2026]][[Freigeschaltet::Ja]]" + PROPS
-QUERY_VORRAT = "[[Kategorie:Ritt in 2026]][[Freigeschaltet::Nein]]" + PROPS
+# Current year plus next year, so the following season shows up as soon as the
+# wiki publishes it (typically in autumn). SMW "||" = OR within one condition.
+_YEAR = datetime.now(tz=ZoneInfo("Europe/Berlin")).year
+YEAR_CATEGORY = f"[[Kategorie:Ritt in {_YEAR}||Ritt in {_YEAR + 1}]]"
+
+QUERY_ACTIVE = "[[Veranstaltungsland::Deutschland]]" + YEAR_CATEGORY + "[[Freigeschaltet::Ja]]" + PROPS
+QUERY_VORRAT = YEAR_CATEGORY + "[[Freigeschaltet::Nein]]" + PROPS
 
 
 def wiki_title_to_vdd_url(wiki_title):
