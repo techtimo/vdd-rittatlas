@@ -259,7 +259,17 @@ const TODAY = new Date().toISOString().slice(0, 10);
 
 // ── status filter ─────────────────────────────────────────────────────────────
 const ALL_STATUSES = ['steht fest', 'vorläufig', 'abgesagt', 'vergangen'];
-let selectedStatuses = new Set();
+const DEFAULT_STATUSES = ['steht fest', 'vorläufig', 'abgesagt'];
+let selectedStatuses = new Set(DEFAULT_STATUSES);
+
+function statusesAreDefault() {
+  return selectedStatuses.size === DEFAULT_STATUSES.length && DEFAULT_STATUSES.every(s => selectedStatuses.has(s));
+}
+
+function syncStatusButtons() {
+  document.querySelectorAll('[data-status]').forEach(btn =>
+    btn.classList.toggle('active', selectedStatuses.has(btn.dataset.status)));
+}
 
 function getEventStatus(ev) {
   const s = (ev.status || '').toLowerCase();
@@ -967,14 +977,18 @@ function initTable(data) {
   });
 
   tbl.on("tableBuilt", () => {
+    const hash = window.location.hash.slice(1);
+    const hashEv = hash ? EVENTS.find(e => e.id === decodeURIComponent(hash)) : null;
+    // Deep link (e.g. push notification for results of a past event): make sure it isn't filtered out
+    if (hashEv && selectedStatuses.size && !selectedStatuses.has(getEventStatus(hashEv))) {
+      selectedStatuses.add(getEventStatus(hashEv));
+      syncStatusButtons();
+      updateClearFiltersBtn();
+    }
     applyFilters();
     _tableReady = true;
     requestAnimationFrame(() => { map.resize(); fitVisibleMarkers(); });
-    const hash = window.location.hash.slice(1);
-    if (hash) {
-      const ev = EVENTS.find(e => e.id === decodeURIComponent(hash));
-      if (ev) focusEvent(ev);
-    }
+    if (hashEv) focusEvent(hashEv);
   });
 
   tbl.on("rowClick", (e, row) => {
@@ -1145,7 +1159,7 @@ function focusEvent(ev) {
 
 // ── filter bar ─────────────────────────────────────────────────────────────────
 function updateClearFiltersBtn() {
-  const active = selectedFavStates.size || selectedRegion || selectedEventTypes.size || selectedDistances.size || selectedStatuses.size;
+  const active = selectedFavStates.size || selectedRegion || selectedEventTypes.size || selectedDistances.size || !statusesAreDefault();
   document.getElementById('btn-clear-filters').style.display = active ? '' : 'none';
 }
 
@@ -1190,9 +1204,10 @@ document.getElementById('btn-clear-filters').addEventListener('click', () => {
   selectedRegion = '';
   selectedEventTypes.clear();
   selectedDistances.clear();
-  selectedStatuses.clear();
+  selectedStatuses = new Set(DEFAULT_STATUSES);
   mapBounds = null;
   document.querySelectorAll('.tog.active').forEach(b => b.classList.remove('active'));
+  syncStatusButtons();
   document.getElementById('region-select').value = '';
   updateClearFiltersBtn();
   applyFilters();
