@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo  # requires 'tzdata' package on Windows
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-NOMINATIM_HEADERS = {"User-Agent": "VDD-Distanzwettbewerbe-Scraper/1.0 (giese.timo@gmail.com)"}
+NOMINATIM_HEADERS = {"User-Agent": "VDD-Distanzwettbewerbe-Scraper/1.0"}
 
 API_URL = "https://vdd-aktuell.de/mediawiki/api.php"
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
